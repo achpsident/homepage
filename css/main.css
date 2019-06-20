@@ -1,0 +1,13 @@
+body {
+background-color:white;
+
+}
+
+
+.banner {
+  height:800px;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)),url('../img/banner.jpg');
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+}
