@@ -68,14 +68,20 @@
   <div class="tab-pane container active" id="home">
     <div class ="text-center mt-3">
       <h2>Matthew Stuewe</h2>
-      <p> Programmer | Web Developer | Educator</p>
+      <p> Programmer | Web Developer | Educator | Wordsmith</p>
     </div>
-    <div class="text-center mt-3">
+    <div class="text-center my-3 ">
        <img name= "linkone" src = "./img/matt_photo-s.jpg" class= "rounded-circle avatar text-center" >
     </div>
-    <h3>"Simplicity is the ultimate sophistication" -Aristotle"</h3>
+    <div class="col-12 text-center text-md-left">
 
     <p>Hello, and welcome to my homepage. Here, you can have a look at a few of the projects that I've worked on and created, as well as get in touch with me. Don't be a stranger!</p>
+
+    <p>I strongly believe that the best site is one that is clean in design, easy to understand at a glance, and which can be used by as many people as possible. There's no
+    need to burden your user's browsers with heavy loads of JavaScript when a simpler, more elegant solution exists.</p>
+
+   <p>Before taking the plunge into web developer-dom, I was an educator, teaching English to young and old, to people from all walks of life.</p>
+ </div>
   <!--  <div style="max-width: 100% max-height:100%%">
         <img class="card-img-top my-card-img" src="./img/dream-om.jpg" alt="Card image cap">
 
@@ -112,25 +118,31 @@
   </div>
 -->
   <div class="tab-pane container fade" id="contact">
+    <div class= "mt-3">
+      <h2> Contact </h2>
+      <p>If you want to contact me with regards to a job opportunity, or for a quote for web design? Here's the way to do it:  </p>
 
-    <h2> Contact </h2>
+       <form method="POST" action="https://formspree.io/stuewe.matthew+pf@gmail.com">
+        <div class="form-row">
+          <div class="form-group col-md-12 mb-4">
+            <input type="text" name="name" class="form-control" placeholder="Name">
+          </div>
+          <div class="form-group col-md-12 mb-4">
+            <input type="email" name="email" class="form-control" placeholder="Email">
+          </div>
+        </div>
+          <div class="form-group mb-4">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-secondary">Send me message</button>
+      </form>
+    </div>
 
-    <p>If you want to contact me with regards to a job opportunity, or for a quote for web design? Here's the way to do it:  </p>
-
-     <form method="POST" action="https://formspree.io/stuewe.matthew+pf@gmail.com">
-      <div class="form-row">
-        <div class="form-group col-md-12 mb-4">
-          <input type="text" name="name" class="form-control" placeholder="Name">
-        </div>
-        <div class="form-group col-md-12 mb-4">
-          <input type="email" name="email" class="form-control" placeholder="Email">
-        </div>
-      </div>
-        <div class="form-group mb-4">
-          <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Send a message</button>
-    </form>
+    <div class= "text-center">
+      <h1>Alternately:</h1>
+      <h2>Matthew Stuewe</h2>
+      <p>stuewe.matthew "at" gmail.com</p>
+    </div>
   </div>
 </div>
 
@@ -163,10 +175,16 @@
 
 
 
-<nav class="navbar fixed-bottom navbar-light bg-light">
-
-
-  <a class="navbar-brand" href="#">Fixed bottom</a>
+<nav class="navbar fixed-bottom navbar-light bg-light d-flex">
+  <div class="container text-center">
+    <div class="col-12">
+     <ul class="justify-content-center">
+        <li class="list-inline-item"><a href="https://www.linkedin.com/in/matthew-stuewe/"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class="list-inline-item ><a href="https://github.com/achpsident"><i class="fab fa-github" ></i></a></li>
+        <li class="list-inline-item"><a href="https://line.me/ti/p/cIT4Z0kPKI"><i class="fab fa-line"></i></a></li>
+      </ul>
+      </div>
+  </div>
 </nav>
 
 
