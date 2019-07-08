@@ -1,8 +1,18 @@
 body {
 background-color:white;
+height: 100vh;
 
 }
 
+h1 {
+  font-size: 48px;
+
+}
+
+.nav-item {
+  margin-left: 20px;
+
+}
 
 .banner {
   height:800px;
@@ -11,3 +21,24 @@ background-color:white;
   background-size: cover;
   background-position: center;
 }
+
+.second-section {
+  height:800px;
+  width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.project-image {
+margin-left:50px;
+ display:block;
+ max-width:80%;
+ max-height: 300px;
+
+}
+ .my-card-img {
+  max-height: 200px;
+ }
